@@ -1,6 +1,6 @@
 package main
 
-func countchar (s string, c string) {
+func countchar (s string, c rune) {
 	var cpt int = 0
 	for i:= 0; i < len(s); i++ {
 		if c == s(i) {
