@@ -1,5 +1,7 @@
 package main
 
+import "github.com/01-edu/z01"
+
 func PrintReverseAlphabet () {
 	var num int = 48
 	for i := 0; i < 10; i++ {
