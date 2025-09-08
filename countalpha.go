@@ -1,11 +1,13 @@
 package main
 
-import "github.com/01-edu/z01"
+import "unicode"
 
 func CountAlpha(s string) int {
-	var cpt int = 0
-	for i := 0; i < len(s); i++ {
-		cpt += 1
+	cpt := 0
+	for _, r := range s {
+		if unicode.IsLetter(r) {
+			cpt++
+		}
 	}
 	return cpt
 }
