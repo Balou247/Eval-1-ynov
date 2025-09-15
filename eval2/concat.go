@@ -1,5 +1,5 @@
-package piscine
+package main
 
-func Concat(phrase1 string, phrase2 string) string {
-	return phrase1 + phrase2
+func Concat(str1 string, str2 string) string {
+	return str1 + str2
 }
